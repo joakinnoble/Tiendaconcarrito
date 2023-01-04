@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tienda</title>
+    
+     <!-- fevicon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body  >
+        <header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                
+             <a href="#"> <img src="/logo.png" alt=""></a>
+             <a style="text-decoration:none  ; font-size: 12px;" href="">inicio  </a>
+             <a style="text-decoration:none ; font-size: 12px;" href="">About  </a>
+             <a style="text-decoration:none ; font-size: 12px; " href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche">Contacto  </a>
+
+            </div>
+            
+            <div class="two columns u-pull-right">
+                
+                
+                <ul>
+                    
+                    <li class="submenu">
+
+                            <img src="/carrito-de-compras.png" width="30" id="img-carrito">
+                            <div id="carrito">
+                                
+                                
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                            <a style="text-decoration:none  ; font-size: 15px; " href="">  Carrito</a>
+
+
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+    <!--header-->
+    <div class="col-md-7">
+        <img class="bann_img" src="images/banner_ing.png" alt="#">
+
+
+     </div>
+     <div style="margin-left: 120px;" >
+        <a style="font-size: 14px; background-color: violet; " name="" id="" class="btn btn-primary" href="#" role="button">VER PRODUCTOS</a>
+        <a style="font-size: 14px;  background-color: violet;" name="" id="" class="btn btn-primary" href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" role="button">Contacto </a>
+        <a style="font-size: 14px;  background-color: violet;" name="" id="" class="btn btn-primary" href="" role="button">📸instagram </a>
+
+     </div>
+
+     
+
+        <!--header-->
+
+
+        <!--PRODUCTOS-->
+    <div id="lista-cursos" class="container">
+        
+        <h1 id="encabezado" class="encabezado">PRODUCTOS</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://i.pinimg.com/236x/c0/86/51/c08651387f235532b4dfaffe093a652a.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
+                        <p>Juan Pedro</p>
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/236x/e5/b3/ac/e5b3ac002b16669dd908ddc47008edae--genie-lamp-oil-lamps.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Curso de Comida Vegetariana</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/236x/d5/27/04/d5270454c4f07b65df01d8ef75c5079b--cool-inventions-night-lights.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Guitarra para Principiantes</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/02/27/07/36/nature-3184889__340.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Huerto en tu casa</h4>
+                        <p>Juan Pedro</p>
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2018/02/09/19/58/composing-3142301__340.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Decoración con productos de tu hogar</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://redmujeresxelmundo.net/wp-content/uploads/2020/04/dise%C3%B1o_web_para_principiantes.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Diseño Web para Principiantes</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://i.pinimg.com/236x/c0/86/51/c08651387f235532b4dfaffe093a652a.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Comida Mexicana para principiantes</h4>
+                        <p>Juan Pedro</p>
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/23/12/40/night-1927265__340.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Estudio Musical en tu casa</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/236x/e5/b3/ac/e5b3ac002b16669dd908ddc47008edae--genie-lamp-oil-lamps.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cosecha tus propias frutas y verduras</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                          I don't know what will.This was the very best explanation of frameworks for brginners 
+                          that I've ever seen.
+                      </p>
+                      <img src="https://i.imgur.com/lE89Aey.jpg">
+                      <div id="image-caption">Nick Doe</div>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                        I don't know what will.This was the very best explanation of frameworks for brginners 
+                        that I've ever seen.</p>
+                        <img src="https://i.imgur.com/QptVdsp.jpg" class="img-fluid">
+                        <div id="image-caption">Cromption Greves</div>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                        I don't know what will.This was the very best explanation of frameworks for brginners 
+                        that I've ever seen.</p>
+                        <img src="https://i.imgur.com/jQWThIn.jpg" class="img-fluid">
+                        <div id="image-caption">Harry Mon</div>
+                    </div>   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <i class='fas fa-arrow-left'></i>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <i class='fas fa-arrow-right'></i>
+                </a>
+              </div>
+              
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://i.pinimg.com/236x/c0/86/51/c08651387f235532b4dfaffe093a652a.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>HTML5, CSS3, JavaScript para Principiantes</h4>
+                        <p>Juan Pedro</p>
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/236x/e5/b3/ac/e5b3ac002b16669dd908ddc47008edae--genie-lamp-oil-lamps.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Curso de Comida Vegetariana</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/236x/d5/27/04/d5270454c4f07b65df01d8ef75c5079b--cool-inventions-night-lights.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Guitarra para Principiantes</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/02/27/07/36/nature-3184889__340.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Huerto en tu casa</h4>
+                        <p>Juan Pedro</p>
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2018/02/09/19/58/composing-3142301__340.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Decoración con productos de tu hogar</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://redmujeresxelmundo.net/wp-content/uploads/2020/04/dise%C3%B1o_web_para_principiantes.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Diseño Web para Principiantes</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://i.pinimg.com/236x/c0/86/51/c08651387f235532b4dfaffe093a652a.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Comida Mexicana para principiantes</h4>
+                        <p>Juan Pedro</p>
+                        <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/23/12/40/night-1927265__340.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Estudio Musical en tu casa</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/236x/e5/b3/ac/e5b3ac002b16669dd908ddc47008edae--genie-lamp-oil-lamps.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cosecha tus propias frutas y verduras</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                          I don't know what will.This was the very best explanation of frameworks for brginners 
+                          that I've ever seen.
+                      </p>
+                      <img src="https://i.imgur.com/lE89Aey.jpg">
+                      <div id="image-caption">Nick Doe</div>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                        I don't know what will.This was the very best explanation of frameworks for brginners 
+                        that I've ever seen.</p>
+                        <img src="https://i.imgur.com/QptVdsp.jpg" class="img-fluid">
+                        <div id="image-caption">Cromption Greves</div>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                        I don't know what will.This was the very best explanation of frameworks for brginners 
+                        that I've ever seen.</p>
+                        <img src="https://i.imgur.com/jQWThIn.jpg" class="img-fluid">
+                        <div id="image-caption">Harry Mon</div>
+                    </div>   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <i class='fas fa-arrow-left'></i>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <i class='fas fa-arrow-right'></i>
+                </a>
+              </div>
+              
+        </div>
+ <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2018/02/27/07/36/nature-3184889__340.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Prepara galletas caseras</h4>
+                            <p>Juan Pedro</p>
+                            <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/11/09/16/22/man-2933991__340.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>JavaScript Moderno con ES6</h4>
+                                <p>Juan Pedro</p>
+                                <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/01/16/23/10/snow-leopard-1985510__340.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>100 Recetas de Comida Natural</h4>
+                                <p>Juan Pedro</p>
+                                <p class="precio">$200  <span class="u-pull-right ">$15</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+    
+    
+
+
+    </footer>
+    <h1 style="font-size: 30px;" >Nuestros Clientes</h1>
+    <figure style="align-items: center; margin-left: 20px 20px 20px;" class="snip1390">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3" class="profile" />
+        <figcaption>
+          <h2>Eleanor Crisp</h2>
+          <h4>UX Design</h4>
+          <blockquote>Dad buried in landslide! Jubilant throngs fill streets! Stunned father inconsolable - demands recount!</blockquote>
+        </figcaption>
+      </figure>
+      <figure class="snip1390 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg" alt="profile-sample5" class="profile" />
+        <figcaption>
+          <h2>Gordon Norman</h2>
+          <h4>Accountant</h4>
+          <blockquote>Wormwood : Calvin, how about you? Calvin : Hard to say ma'am. I think my cerebellum has just fused. </blockquote>
+        </figcaption>
+      </figure>
+      <figure class="snip1390"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg" alt="profile-sample6" class="profile" />
+        <figcaption>
+          <h2>Sue Shei</h2>
+          <h4>Public Relations</h4>
+          <blockquote>The strength to change what I can, the inability to accept what I can't and the incapacity to tell the difference.</blockquote>
+        </figcaption>
+      </figure>
+      <div class="footer">
+        <div class="daih_bg">
+           <div class="container">
+              <div class="row">
+                 <div class="col-sm-12">
+                    <ul class="conta">
+                       <li><a style="text-decoration:none;" href=""><i class="fa fa-phone" aria-hidden="true"></i> Numero de Telefono +598 xx xx xx </a></li>
+                       <li><i class="fa fa-map-marker" aria-hidden="true"></i>Ubicación</li>
+                       <li> <i class="fa fa-envelope" aria-hidden="true"></i><a style="text-decoration: none;" href="#">ejemplo@gmail.com</a></li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="container">
+           <div class="row">
+              <div class="col-sm-12">
+                 <img class="tex_left" src="images/logo2.png" alt="#">
+              </div>
+              <hr>
+              <div class=" col-md-3 col-sm-6">
+                <h1 style="color: white;" > descripcion de la empresa</h1>
+                <br>
+                 <h3 class="variat">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vitae tempore neque eaque, dolorum quasi magni ipsum perferendis. Numquam deleniti maxime ut? Blanditiis exercitationem facilis distinctio fugiat assumenda, cumque impedit?</h3>
+              </div>
+              <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                
+              </div>
+              <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                 <h3>Preguntas Frecuentes</h3>
+                 <ul class="link_menu">
+                    <li>• PREGUNTA </li>
+                    <li>◘ RESPUESTA</li>
+                    <li>• PREGUNTA </li>
+                    <li>◘ RESPUESTA, </li>
+                    <li>• PREGUNTA </li>
+                    <li>◘RESPUESTA  </li>
+                 </ul>
+              </div>
+              <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                 <h3>Supported</h3>
+                 <ul class="link_menu">
+                    <li> There are many </li>
+                    <li> variations of pas</li>
+                    <li> sages of Lorem </li>
+                    <li> Ipsum available, </li>
+                    <li>but the majority </li>
+                    <li>have suffered  </li>
+                 </ul>
+              </div>
+              <div class="col-sm-12">
+                 <ul class="social2_icon">
+                    <h1 style="color:white">SEGUINOS EN REDES SOCIALES</h1>
+                    <li><a href="https://www.instagram.com/thommycrafts/related_profiles/"><i class="fa-brands fa-instagram"></i></a></li>
+                 </ul>
+              </div>
+           </div>
+        </div>
+       
+     </div>
+
+    </body>
+
+  <script src="/js.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</html>
